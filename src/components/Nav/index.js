@@ -43,7 +43,7 @@ function Nav(props) {
               className={`mx-1 ${
                 currentCategory.name === category.name &&
                 !contactSelected &&
-                "navActive"
+                `navActive`
               }`}
               key={category.name}
             >
